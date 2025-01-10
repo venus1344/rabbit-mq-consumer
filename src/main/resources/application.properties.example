@@ -1,0 +1,15 @@
+# RabbitMQ Configuration
+rabbitmq.uri=amqp://user:password@localhost:5672
+
+# Redis Configuration
+redis.host=localhost
+redis.port=6379
+
+# PostgreSQL Configuration
+postgres.url=jdbc:postgresql://localhost:5432/dbname
+postgres.user=dbuser
+postgres.password=dbpassword
+
+# Encryption Keys
+encryption.key=your-32-char-encryption-key-here
+encryption.secret=your-32-char-hmac-secret-key-here 

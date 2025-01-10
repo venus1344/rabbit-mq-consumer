@@ -1,0 +1,14 @@
+# Build output
+target/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive configuration
+src/main/resources/application.properties
