@@ -21,6 +21,5 @@ Consumer of the producer repo: https://github.com/venus1344/rabbit-mq-producer
 - The consumer will consume the messages from the RabbitMQ queue and decrypt them using the encryption key & secret.
 - The decrypted message will be processed by the `MetricsWorker` class.
 - The `MetricsWorker` class will store the metrics in Redis and PostgreSQL.
-- The `MetricsWorker` class will also send an email to the admin if the metrics exceed the threshold.
 
 The redis setup is not really up to standard, it was a quick attempt at trying things out.
