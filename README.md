@@ -1,5 +1,5 @@
 # rabbit-mq-consumer
-Consumer of the producer repo: https://github.com/rdxio/rabbit-mq-producer
+Consumer of the producer repo: https://github.com/venus1344/rabbit-mq-producer
 
 ## How to run
 1. Clone the repo
